@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println(getNombreEntre0et1());
+		
+
+	}
+
+	public static int getNombreEntre0et1(){
+        return (int)Math.random() * 1;
+    }
+
+}

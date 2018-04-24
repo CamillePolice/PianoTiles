@@ -1,0 +1,24 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println(getNombreEntre0et1());
+		
+		
+		
+
+	}
+
+	public static int getNombreEntre0et1(){
+		 int min,
+		 	max;
+		 
+		  min = (int) Math.ceil(0);
+		  max = (int) Math.floor(1);
+		  return (int) (Math.floor(Math.random() * (max - min +1)) + min);
+		}
+    }
+
+

@@ -1,0 +1,19 @@
+package matrice;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		GenerationMatrice a = new GenerationMatrice(20,10);
+		
+		System.out.println(a);
+		System.out.println(a.getNombreEntre0et1());
+		System.out.println(a.getNombreEntre0et1());
+		System.out.println(a.getNombreEntre0et1());
+		System.out.println(a.getNombreEntre0et1());
+		System.out.println(a.getNombreEntre0et1());
+		
+	}
+  }
+
+

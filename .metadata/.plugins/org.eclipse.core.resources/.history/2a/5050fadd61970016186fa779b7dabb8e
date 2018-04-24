@@ -1,0 +1,8 @@
+package matrice;
+
+public class GenerationMatrice {
+	
+	public int getNombreEntre0et1(){
+        return (int)Math.random() * 1;
+    }
+}
